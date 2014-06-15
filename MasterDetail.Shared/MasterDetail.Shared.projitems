@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{A9CB5644-AF16-4F3C-94A1-E2C80FAA0E65}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>MasterDetail</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MasterViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\DetailView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MasterView.cs" />
+  </ItemGroup>
+</Project>
