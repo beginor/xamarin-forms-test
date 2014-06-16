@@ -86,6 +86,7 @@
   <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
     <AndroidResource Include="Resources\drawable\Splash.png" />
+    <AndroidResource Include="Resources\drawable\Add.png" />
   </ItemGroup>
   <Import Project="..\MasterDetail.Shared\MasterDetail.Shared.projitems" Label="Shared" Condition="Exists('..\MasterDetail.Shared\MasterDetail.Shared.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
