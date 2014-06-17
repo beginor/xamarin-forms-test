@@ -23,6 +23,7 @@ namespace MasterDetail.Views {
 
             var addItem = new ToolbarItem {
                 Name = "Add",
+                Icon = "Add.png",
                 BindingContext = viewModel
             };
             addItem.SetBinding(ToolbarItem.CommandProperty, "Add");
